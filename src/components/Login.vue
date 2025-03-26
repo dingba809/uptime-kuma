@@ -2,7 +2,7 @@
     <div class="form-container">
         <div class="form">
             <form @submit.prevent="submit">
-                <h1 class="h3 mb-3 fw-normal" />
+                <h1 class="h3 mb-3 fw-normal">设备监控</h1>
 
                 <div v-if="!tokenRequired" class="form-floating">
                     <input id="floatingInput" v-model="username" type="text" class="form-control" placeholder="Username" autocomplete="username" required>
